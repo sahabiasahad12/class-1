@@ -1,0 +1,399 @@
+.nav-link:hover, .nav-link:focus {
+    color: rgb(255 255 255);
+    border-bottom: 1px solid #fff;
+}
+.service img{
+    width: 30px;
+    margin-right: 10px;
+
+}
+
+.productGroup .col-lg div{
+
+}
+.productGroup img:hover{
+    border: 2px solid #333;
+}
+.review{
+
+}
+.reviewStar{
+    margin-right: 10px;
+}
+.reviewStar i{
+    font-size: 20px;
+}
+.price{
+
+margin: 10px 0;
+}
+.price strong{}
+.price del{
+    font-weight: 400;
+    color: #777;
+    font-size: 30px;
+}
+.variantBox{}
+.variant{
+    max-width: 325px;
+    margin: auto;
+}
+.variant div label{
+    
+    border: 1px solid #444;
+    margin-bottom: 12px;
+    padding: 6px 30px;
+    border-radius: 4px;
+    background: transparent;
+    
+}
+
+   .variant input{
+    display: none;
+} 
+
+
+div input:checked + label{
+    background-color: #f2931f;
+}
+.accordion{
+    max-width: 400px;
+    margin: auto;
+}
+.accordion-button, .accordion-body, .accordion-button:not(.collapsed) {
+    background-color: #ededed7d;
+}
+
+.accordion-button:focus {
+    z-index: 3;
+    border-color: #86b7fe00;
+    outline: 0;
+    box-shadow: 0 0 0 transparent;
+}
+.cta{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 300px;
+    margin: 10px auto;
+}
+.cta .counter{
+    flex-basis: 25%;
+    max-width: 25%;
+    padding: 5px;
+}
+.cta .counter input{
+
+    width: 100%;
+    padding: 8px 5px;
+}
+.cta .cart{
+    padding: 10px;
+    flex-basis: 70%;
+    max-width: 80%;
+    padding: 5px;
+}
+
+.cta .cart button{
+
+    
+    width: 100%;
+    padding: 8px 5px;
+    background-color: #f2931f;
+    font-weight: 900;
+    color: #fff;
+}
+    
+    
+.sectionBanner .row{
+    
+        --bs-gutter-x: 1.5rem;
+        --bs-gutter-y: 0;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: calc(-1 * var(--bs-gutter-y));
+        margin-right: calc(-0.5 * var(--bs-gutter-x));
+        margin-left: calc(-0.5 * var(--bs-gutter-x));
+        max-width: 900px;
+        margin: auto; 
+    
+}
+.sectionBanner img{
+    width: 170px;
+}
+.sectionBanner .text-center{
+    text-align: center !important;
+    font-weight: 700;
+}
+
+
+.heroSection .text-center{
+    text-align: center !important;
+    font-weight: 700;
+    margin-bottom: 60px;
+}
+.heroSection{
+    background-color: #f1f1f182;
+}
+.heroSection img{
+    width: 65px;
+}
+.heroSection{
+    margin-top: 60px;
+    
+}
+.heroSection h4{
+    margin-top: 10px;
+    font-weight: 100;
+}
+.heroSection h3{
+    font-weight: 300;
+}
+.heroSection p{
+    font-size: 16px;
+    font-weight: 400;
+}
+.immoratelsectio .text-center{
+    font-weight: 700;
+}
+.iconBox{
+    padding: 10px 0;
+}
+.iconBox img{}
+.iconBox h3{
+    font-size: 24px;
+    margin: 5px 0 0;
+}
+.iconBox p{
+    margin: 0;
+    font-size: 17px;
+}
+
+
+.articleSection .text-center{}
+.articleSection .row{
+    margin-top: 90px;
+}
+.articleSection .ico{
+    color: #f2931f;
+    font-size: 22px;
+    margin: 10px 0;
+}
+.articleSection img{   
+        width: 100px;
+        height: 100px;      
+        object-fit: cover;     
+        border-radius: 50%;
+        border: 3px solid #fff;
+        box-shadow: #01c07f 0 0 0 2px;   
+}
+.articleSection h3{
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.articleSection span{
+    font-weight: 200;
+    font-style: italic;
+}
+.articleSection h4{
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 10px;
+    font-style: italic;
+}
+
+
+
+.videoSation{}
+.videoSation iframe{
+    width: 100%;
+    height: 560px;
+    object-fit: cover;
+    
+}
+
+.navbar-toggler:focus {
+    text-decoration: none;
+    outline: none;
+    box-shadow: 0 0 0 transparent;
+}
+
+@media(max-width: 991px){
+    .servicesection h3{
+        font-size: 16px;
+    }
+    .servicesection img{
+        width: 20px;
+    }
+
+    .heroSection img{
+        width: 50px;
+    }
+    .heroSection h3{
+        font-size: 20px;     
+        font-weight: 500;
+    }
+
+    .heroSection p{
+        font-size: 14px;
+        font-weight: 300;
+    }
+    .heroSection .text-center{
+        text-align: center !important;
+        font-weight: 700;
+        margin-bottom: 50px;
+        font-size: 25px;
+    }
+    .iconBox h3{
+        font-size: 20px;
+        margin: 4px 0 0;
+    }
+
+    .iconBox p{
+        margin: 0;
+        font-size: 15px;
+    }
+    .immoratelsectio .text-center{
+        font-size: 25px;
+        font-weight: 700;
+    }
+    
+    .videoSation iframe{
+        width: 100%;
+        height: 500px;
+        object-fit: cover;
+    
+}
+     .articleSection h4{
+        
+        margin-bottom: 30px;
+     }
+     .articleSection span{
+        font-size: 17px;
+        margin: auto;
+     }
+     .articleSection img{
+        margin-top: 10px;
+     }
+
+}
+@media(max-width: 767px){
+    .productGroup {
+        max-width: 400px;
+        margin: 0 auto 30px;
+    }
+    .sectionBanner img{
+        width: 100px;
+    }
+
+    .heroSection img{
+        width: 40px;
+    }
+
+    .heroSection p{
+        font-size: 12px;
+        font-weight: 200;
+    }
+    .heroSection h3{
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+    .heroSection .text-center{
+        text-align: center !important;
+        font-weight: 700;
+        margin-bottom: 40px;
+    }
+    .immoratelsectio .text-center{
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    .heroSection .text-center{
+        text-align: center !important;
+        font-weight: 700;
+        margin-bottom: 50px;
+        font-size: 20px;
+     }
+
+     .iconBox h3{
+        font-size: 15px;
+        margin: 4px 0 0;
+    }
+
+    .iconBox p{
+        margin: 0;
+        font-size: 12px;
+    }
+    .articleSection .text-center{
+        font-size: 24px;
+    }
+
+    
+    .videoSation iframe{
+        width: 100%;
+        height: 460px;
+        object-fit: cover;
+    
+}
+     .articleSection span{
+        font-size: 17px;
+     }
+  }
+
+@media(max-width: 555px){
+
+    .heroSection img{
+        width: 40px;
+    }
+
+    .heroSection p{
+        font-size: 14px;
+        font-weight: 250;
+    }
+
+    .heroSection .text-center{
+        text-align: center !important;
+        font-weight: 700;
+        margin-bottom: 30px;
+        font-size: 17px;
+    }
+
+
+    .immoratelsectio .text-center{
+        font-size: 17px;
+        font-weight: 700;
+    }
+
+
+     .iconBox h3{
+        font-size: 12px;
+        margin: 4px 0 0;
+    }
+
+    .iconBox p{
+        margin: 0;
+        font-size: 10px;
+    }
+    .articleSection .text-center{
+        font-size: 20px;
+    }
+
+    
+    .videoSation iframe{
+        width: 100%;
+        height: 460px;
+        object-fit: cover;
+    
+    }
+    .articleSection span{
+        font-size: 17px;
+    }
+    .heroSection h3{
+        font-size: 12px;     
+        font-weight: 700;
+        margin-bottom: 10px;
+    }
+
+}
